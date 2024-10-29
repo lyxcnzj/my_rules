@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300px" src="https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/beauty.jpg" align="center" alt="GitHub Readme Stats" />
+  <img width="1500px" src="https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/beauty.jpg" align="center" alt="GitHub Readme Stats" />
   <h2 align="center">Clash Rules Lite</h2>
 
   
