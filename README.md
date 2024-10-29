@@ -41,10 +41,16 @@ https://cdn.jsdelivr.net/xxx/xxx...
 # 那么把域名中的 cdn 改为 purge 即可：
 https://purge.jsdelivr.net/xxx/xxx...
 
+```
+然后访问这个文件新 URL 就会提示你刷新成功！
+
 ### 我的配置文件，可以在mihomo-openwrt和openclash中使用
 <p align="center">
   <img width="100px" src="" align="center" alt="GitHub Readme Stats" />
   <h2 align="center">Clash Rules Lite</h2>
+
+
+
 ```
 # 锚点
 pr: &pr {type: select, proxies: [节点选择, 全部节点, 自建节点, 直连]}
@@ -169,6 +175,4 @@ rule-providers:
 
 ```
 
-```
-然后访问这个文件新 URL 就会提示你刷新成功！
 
