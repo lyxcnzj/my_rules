@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300px" src="https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/beauty.png" align="center" alt="GitHub Readme Stats" />
+  <img width="300px" src="https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/beauty.jpg" align="center" alt="GitHub Readme Stats" />
   <h2 align="center">Clash Rules Lite</h2>
 
   
@@ -51,7 +51,7 @@ https://purge.jsdelivr.net/xxx/xxx...
 
 ### 我的配置文件，可以在mihomo-openwrt和openclash中使用
 <p align="center">
-  <img width="100px" src="https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/awesome.png" align="center" alt="GitHub Readme Stats" />
+  <img width="1000px" src="https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/awesome.png" align="center" alt="GitHub Readme Stats" />
   <h2 align="center">Clash Rules Lite</h2>
 
 ```
