@@ -1,16 +1,8 @@
-<p align="center">
-  <img width="100px" src="https://user-images.githubusercontent.com/35565811/214613019-6fd702b7-445e-4663-8471-f47005241724.png" align="center" alt="GitHub Readme Stats" />
-  <h2 align="center">Clash Rules Lite</h2>
-</p>
-
 ### 工具介绍
 + 个人自用
-+ Clash 默认的GFW代理规则内容太多，使用过程中明显感觉到有延迟
-+ 本工具的想法是代理规则一边用一边添加，毕竟我们访问的网站应该很有限
-+ 该工具的目的是删除不必要的代理规则，方便用户自定义代理的内容
-+ 代理规则放在github仓库中方便多设备同步，只需编辑[rules.txt](https://github.com/lyxcnzj/clash-rules-lite/blob/main/rules.txt)即可
-+ 当用户更新规则后，使用Github Actions自动将规则缓存到免费CDN上 
-
++ 极简主义
++ 多设备同步
++ 免费cdn
 
 ### 如何自定义
 1. fork 本仓库：[Fork lyxcnzj/clash-rules-lite](https://github.com/lyxcnzj/clash-rules-lite/fork) 
@@ -34,9 +26,25 @@
 
 Tips:
 > a. 可通过访问进行验证 `https://cdn.jsdelivr.net/gh/{你的GITHUB用户名}/clash-rules-lite@release/`   
-> b. **该仓中以 rules.txt 结尾的文件，都会缓存到 jsdelivr CDN中，可以自定义！**    
+> b. **该仓中以 rules.txt 结尾的文件，都会缓存到 jsdelivr CDN中，可以自定义！**
+
+
+
++ jsdelivr CDN 缓存没有更新怎么办？
+
+> 这是因为 jsdelivr CDN 缓存的原因，一般来说是 24小时刷新缓存，但是这样太慢了！   
+> 不过 jsdelivr CDN 也提供手动刷新缓存的方法：
+```
+# 假设你的文件 URL 是这样：
+https://cdn.jsdelivr.net/xxx/xxx...
+
+# 那么把域名中的 cdn 改为 purge 即可：
+https://purge.jsdelivr.net/xxx/xxx...
 
 ### 我的配置文件，可以在mihomo-openwrt和openclash中使用
+<p align="center">
+  <img width="100px" src="" align="center" alt="GitHub Readme Stats" />
+  <h2 align="center">Clash Rules Lite</h2>
 ```
 # 锚点
 pr: &pr {type: select, proxies: [节点选择, 全部节点, 自建节点, 直连]}
@@ -161,17 +169,6 @@ rule-providers:
 
 ```
 
-
-+ jsdelivr CDN 缓存没有更新怎么办？
-
-> 这是因为 jsdelivr CDN 缓存的原因，一般来说是 24小时刷新缓存，但是这样太慢了！   
-> 不过 jsdelivr CDN 也提供手动刷新缓存的方法：
-```
-# 假设你的文件 URL 是这样：
-https://cdn.jsdelivr.net/xxx/xxx...
-
-# 那么把域名中的 cdn 改为 purge 即可：
-https://purge.jsdelivr.net/xxx/xxx...
 ```
 然后访问这个文件新 URL 就会提示你刷新成功！
 
