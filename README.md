@@ -1,3 +1,8 @@
+<p align="center">
+  <img width="300px" src="https://github.com/lyxcnzj/clash-rules-lite/blob/main/beauty.png" align="center" alt="GitHub Readme Stats" />
+  <h2 align="center">Clash Rules Lite</h2>
+
+  
 ### 工具介绍
 + 个人自用
 + 极简主义
@@ -46,10 +51,8 @@ https://purge.jsdelivr.net/xxx/xxx...
 
 ### 我的配置文件，可以在mihomo-openwrt和openclash中使用
 <p align="center">
-  <img width="100px" src="" align="center" alt="GitHub Readme Stats" />
+  <img width="100px" src="https://github.com/lyxcnzj/clash-rules-lite/blob/main/awesome.png" align="center" alt="GitHub Readme Stats" />
   <h2 align="center">Clash Rules Lite</h2>
-
-
 
 ```
 # 锚点
