@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1500px" src="https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/beauty.jpg" align="center" alt="GitHub Readme Stats" />
+  <img width="1500px" src="https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/beauty.jpg" align="center" alt="GitHub Readme Stats" />
   <h2 align="center">Clash Rules Lite</h2>
 
   
@@ -10,7 +10,7 @@
 + 免费cdn
 
 ### 如何自定义
-1. fork 本仓库：[Fork lyxcnzj/clash-rules-lite](https://github.com/lyxcnzj/clash-rules-lite/fork) 
+1. fork 本仓库：[Fork lyxcnzj/my_rules](https://github.com/lyxcnzj/my_rules/fork) 
 2. 触发 GitHub Action 中的 `Generate Rules for Clash` 工作流
 3. 编辑 `xx-rules.txt` 以自定义规则
 4. 在对应的 Clash 上刷新配置文件
@@ -30,7 +30,7 @@
 
 
 Tips:
-> a. 可通过访问进行验证 `https://cdn.jsdelivr.net/gh/{你的GITHUB用户名}/clash-rules-lite@release/`   
+> a. 可通过访问进行验证 `https://cdn.jsdelivr.net/gh/{你的GITHUB用户名}/my_rules@release/`   
 > b. **该仓中以 rules.txt 结尾的文件，都会缓存到 jsdelivr CDN中，可以自定义！**
 
 
@@ -51,7 +51,7 @@ https://purge.jsdelivr.net/xxx/xxx...
 
 ### 我的配置文件，可以在mihomo-openwrt和openclash中使用
 <p align="center">
-  <img width="1000px" src="https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/awesome.png" align="center" alt="GitHub Readme Stats" />
+  <img width="1000px" src="https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/awesome.png" align="center" alt="GitHub Readme Stats" />
   <h2 align="center">Clash Rules Lite</h2>
 
 ```
@@ -150,11 +150,11 @@ rule-anchor:
   class: &class {type: http, interval: 86400, behavior: classical, format: text}
 rule-providers: 
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs" }
-  direct_domain_diy: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/direct.list" }
-  direct_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/Direct.list" }
-  proxy_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/proxy.list" }
-  DNS: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/DNS.list" }
-  ai: { <<: *lyx, url: "https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/AI.list" }
+  direct_domain_diy: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/direct.list" }
+  direct_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/Direct.list" }
+  proxy_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/proxy.list" }
+  DNS: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/DNS.list" }
+  ai: { <<: *lyx, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/AI.list" }
   youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs" }
   google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs" }
   github_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs" }
@@ -172,8 +172,8 @@ rule-providers:
   google_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs" }
   telegram_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs" }
   netflix_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs" }
-  AD: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/AdBloack.list" }
-  talkatone: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/clash-rules-lite/refs/heads/main/talkatone.list" }
+  AD: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/AdBloack.list" }
+  talkatone: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/talkatone.list" }
   qiufeng: { type: http, interval: 60480, behavior: domain, format: yaml, url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml"}
 
 ```
