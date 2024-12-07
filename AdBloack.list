@@ -5,7 +5,7 @@ DOMAIN-SUFFIX,criteo.com
 DOMAIN-SUFFIX,pubmatic.com
 DOMAIN-SUFFIX,smaato.net
 DOMAIN-SUFFIX,amazon-adsystem.com
-DOMAIN-KEYWORD,googleads
+DOMAIN-SUFFIX,googleads.g.doubleclick.net
 DOMAIN-SUFFIX,adsappier.com
 DOMAIN-SUFFIX,appier.net
 DOMAIN-SUFFIX,appiersig.com
