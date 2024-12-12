@@ -2,7 +2,7 @@
   "version": 2,
   "rules": [
     {
-      "type": "combined",
+      "type": "domain-suffix",
       "domain_suffix": [
         "inner-active.mobi",
         "mobilefuse.com",
