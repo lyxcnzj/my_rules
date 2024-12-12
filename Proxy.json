@@ -1,1 +1,12 @@
-
+{
+  "version": 2,
+  "rules": [
+    {
+      "type": "domain-suffix",
+      "domain_suffix": [
+        "tktn.be",
+        "kavedit.site"
+      ]
+    }
+  ]
+}
