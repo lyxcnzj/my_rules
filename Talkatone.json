@@ -2,7 +2,6 @@
     "version": 2,
     "rules": [
         {
-            "type": "domain-suffix",
             "domain_suffix": [
                 "inner-active.mobi",
                 "mobilefuse.com",
@@ -17,7 +16,6 @@
             ]
         },
         {
-            "type": "ip_cidr",
             "ip_cidr": [
                 "50.117.27.0/24",
                 "69.46.75.0/24",
