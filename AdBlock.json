@@ -2,7 +2,6 @@
   "version": 1,
   "rules": [
     {
-      "type": "domain-suffix",
       "domain_suffix": [
         "ads.inmobi.com",
         "tappx.com",
