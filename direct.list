@@ -16,8 +16,7 @@ DOMAIN,alt7-mtalk.google.com
 DOMAIN-SUFFIX,dolinux.us.kg
 DOMAIN-SUFFIX,estudy.cn
 DOMAIN-SUFFIX,52pojie.cn
-DOMAIN-SUFFIX,linux.do
-DOMAIN-SUFFIX,nodeseek.com
+
 
 #PT站
 DOMAIN-SUFFIX,kp.m-team.cc
@@ -39,5 +38,6 @@ DOMAIN-SUFFIX,www.agsvpt.com
 DOMAIN-SUFFIX,pt.soulvoice.club
 DOMAIN-SUFFIX,ptvicomo.net
 
-#万恶的甲骨文
-DOMAIN-SUFFIX,oracle.com
+# 万恶的甲骨文
+# DOMAIN-SUFFIX,oracle.com
+
