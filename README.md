@@ -54,6 +54,9 @@ https://purge.jsdelivr.net/xxx/xxx...
   <img width="1000px" src="https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/awesome.png" align="center" alt="GitHub Readme Stats" />
   <h2 align="center">Clash Rules Lite</h2>
 # 2025.1.15更新版本
+
+
+  
 ```
 # 锚点
 pr: &pr {type: select, proxies: [节点选择, 全部节点, 自建节点, 机场节点, 直连]}
@@ -163,9 +166,8 @@ rule-providers:
   telegram_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs" }
   talkatone: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/talkatone.list" }
   trade_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/trade.list" }
-
-
 ```
+
 
 ```
 # 锚点
