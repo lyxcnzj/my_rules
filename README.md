@@ -53,6 +53,119 @@ https://purge.jsdelivr.net/xxx/xxx...
 <p align="center">
   <img width="1000px" src="https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/awesome.png" align="center" alt="GitHub Readme Stats" />
   <h2 align="center">Clash Rules Lite</h2>
+# 2025.1.15更新版本
+```
+# 锚点
+pr: &pr {type: select, proxies: [节点选择, 全部节点, 自建节点, 机场节点, 直连]}
+
+# 机场订阅，名称不能重复
+proxy-providers:
+  自建:
+    type: http
+    interval: 1800
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 直连
+    url: ""
+  机场:
+    type: http
+    interval: 1800
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 直连
+    url: ""
+
+# 用于下载订阅时指定UA
+global-ua: clash.meta
+
+
+unified-delay: true
+tcp-concurrent: true
+global-client-fingerprint: chrome
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "Mijia Cloud"
+    - "dlg.io.mi.com"
+    - "+.push.apple.com"
+    - "+.apple.com"
+
+proxies:
+- name: "直连"
+  type: direct
+  udp: true
+
+proxy-groups:
+  - {name: 节点选择, type: select, icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Meta_1.png", proxies: [全部节点, 自建节点, 机场节点, 直连]}
+  - {name: 全部节点, type: select, icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Bytedance.png", include-all: true,filter: "^((?!(直连)).)*$"}
+  - {name: 自建节点, type: select, icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Home.png", use: [自建]} 
+  - {name: 机场节点, type: select, icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Home.png", use: [机场]} 
+  - {name: Google, icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Google.png", <<: *pr}
+  - {name: YouTube, icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/YouTube.png", <<: *pr} 
+  - {name: Telegram, icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Telegram.png", <<: *pr}
+  - {name: GitHub, icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/GitHub.png", <<: *pr}
+  - {name: AI, icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/ChatGPT.png", <<: *pr}
+  - {name: Talkatone, icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Chained.png", <<: *pr}
+  - {name: Trade, icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Home.png", <<: *pr}
+  - {name: 漏网之鱼, icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Scholar.png", <<: *pr}
+rules:
+  - RULE-SET,private_domain,直连
+  - RULE-SET,direct_domain_diy,直连
+  - RULE-SET,DNS,节点选择
+  - RULE-SET,proxy_domain,节点选择
+  - RULE-SET,ai,AI
+  - RULE-SET,github_domain,GitHub
+  - RULE-SET,youtube_domain,YouTube
+  - RULE-SET,google_domain,Google
+  - RULE-SET,telegram_domain,Telegram
+  - RULE-SET,trade_domain,Trade
+  - RULE-SET,geolocation-!cn,节点选择
+  - RULE-SET,cn_domain,直连
+  - RULE-SET,direct_domain,直连
+  - RULE-SET,google_ip,Google,no-resolve
+  - RULE-SET,telegram_ip,Telegram,no-resolve
+  - RULE-SET,cn_ip,直连
+  - RULE-SET,talkatone,Talkatone
+  - MATCH,节点选择
+rule-anchor:
+  ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: mrs}
+  domain: &domain {type: http, interval: 86400, behavior: domain, format: mrs}
+  lyx: &lyx {type: http, interval: 86400, behavior: domain, format: text}
+  class: &class {type: http, interval: 86400, behavior: classical, format: text}
+rule-providers: 
+  private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs" }
+  direct_domain_diy: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/direct.list" }
+  direct_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/Direct.list" }
+  proxy_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/proxy.list" }
+  DNS: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/DNS.list" }
+  ai: { <<: *lyx, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/AI.list" }
+  youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs" }
+  google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs" }
+  github_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs" }
+  telegram_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs" }
+  gfw_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.mrs" }
+  geolocation-!cn: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs" }
+  cn_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs" }
+  cn_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs" }
+  google_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs" }
+  telegram_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs" }
+  talkatone: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/talkatone.list" }
+  trade_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/trade.list" }
+
+
+```
 
 ```
 # 锚点
