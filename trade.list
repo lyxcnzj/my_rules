@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,saasexch.io
 DOMAIN-SUFFIX,appsflayer.com
 
 
+
 # OKX
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,okx.com
@@ -51,6 +52,8 @@ DOMAIN-SUFFIX,bytick.com
 DOMAIN-SUFFIX,byapis.com
 DOMAIN-SUFFIX,bycbe.com
 DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,byapps.net
 
 # bybit 
 # https://www.nodeseek.com/post-144516-1
@@ -58,6 +61,7 @@ DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ipapi.co
 DOMAIN-SUFFIX,ipwho.is
 DOMAIN-SUFFIX,ffe390afd658c19dcbt707e0597b846d.de
+DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
 DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
 DOMAIN-KEYWORD,bybit
 DOMAIN-KEYWORD,myfin
@@ -71,6 +75,7 @@ DOMAIN-KEYWORD,bitverse
 DOMAIN-KEYWORD,appsflyersdk
 DOMAIN-KEYWORD,geetest
 DOMAIN-KEYWORD,byabcde
+sc-datasink.
 
 # redotpay
 DOMAIN-SUFFIX,redotpay.com
