@@ -1,7 +1,5 @@
 <p align="center">
   <img width="1500px" src="https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/beauty.jpg" align="center" alt="GitHub Readme Stats" />
-  <h2 align="center">MY Rules</h2>
-
   
 ### 工具介绍
 + 个人自用
