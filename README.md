@@ -1,6 +1,6 @@
 <p align="center">
   <img width="1500px" src="https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/beauty.jpg" align="center" alt="GitHub Readme Stats" />
-  <h2 align="center">Clash Rules Lite</h2>
+  <h2 align="center">MY Rules</h2>
 
   
 ### 工具介绍
@@ -12,7 +12,6 @@
 ### 配置文件
 <p align="center">
   <img width="1000px" src="https://raw.githubusercontent.com/lyxcnzj/my_rules/refs/heads/main/awesome.png" align="center" alt="GitHub Readme Stats" />
-  <h2 align="center">Clash Rules Lite</h2>
   
 ```
 # 锚点
