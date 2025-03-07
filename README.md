@@ -7,47 +7,7 @@
 + 个人自用
 + 极简主义
 + 多端同步
-+ 免费cdn
 
-### 如何自定义
-1. fork 本仓库：[Fork lyxcnzj/my_rules](https://github.com/lyxcnzj/my_rules/fork) 
-2. 触发 GitHub Action 中的 `Generate Rules for Clash` 工作流
-3. 编辑 `xx-rules.txt` 以自定义规则
-4. 在对应的 Clash 上刷新配置文件
-
-<div align="center">
-  <center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://user-images.githubusercontent.com/35565811/184524456-e956ef59-4577-44e9-9b99-4a8684b77e40.png">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">启动流水线示意图</div>
-  </center>
-</div>
-
-
-Tips:
-> a. 可通过访问进行验证 `https://cdn.jsdelivr.net/gh/{你的GITHUB用户名}/my_rules@release/`   
-> b. **该仓中以 rules.txt 结尾的文件，都会缓存到 jsdelivr CDN中，可以自定义！**
-
-
-
-+ jsdelivr CDN 缓存没有更新怎么办？
-
-> 这是因为 jsdelivr CDN 缓存的原因，一般来说是 24小时刷新缓存，但是这样太慢了！   
-> 不过 jsdelivr CDN 也提供手动刷新缓存的方法：
-```
-# 假设你的文件 URL 是这样：
-https://cdn.jsdelivr.net/xxx/xxx...
-
-# 那么把域名中的 cdn 改为 purge 即可：
-https://purge.jsdelivr.net/xxx/xxx...
-
-```
-然后访问这个文件新 URL 就会提示你刷新成功！
 
 ### 配置文件
 <p align="center">
