@@ -5,7 +5,7 @@ DOMAIN-SUFFIX,star-space.net
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,nodeseek.com
 
-# deepseek国际版
-DOMAIN-SUFFIX,deepseek.com
-DOMAIN-SUFFIX,volces.com
-DOMAIN-SUFFIX,portal101.cn
+# DeepSeek国际版
+# DOMAIN-SUFFIX,deepseek.com
+# DOMAIN-SUFFIX,volces.com
+# DOMAIN-SUFFIX,portal101.cn
