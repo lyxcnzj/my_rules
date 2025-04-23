@@ -32,8 +32,6 @@ DOMAIN-SUFFIX,saasexch.com
 DOMAIN-SUFFIX,saasexch.io
 DOMAIN-SUFFIX,appsflayer.com
 
-
-
 # OKX
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,okx.com
@@ -42,6 +40,14 @@ DOMAIN-SUFFIX,okx-dns1.com
 DOMAIN-SUFFIX,okx-dns2.com
 DOMAIN-SUFFIX,oklink.com
 
+# redotpay
+DOMAIN-SUFFIX,redotpay.com
+
+# infini
+DOMAIN-SUFFIX,infini.money
+
+# fiat24
+DOMAIN-SUFFIX,fiat24.com
 
 # bybit
 # https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/classical/bybit.list
@@ -83,8 +89,3 @@ DOMAIN-SUFFIX,oklink.com
 # DOMAIN-KEYWORD,geetest
 # DOMAIN-KEYWORD,byabcde
 
-# redotpay
-DOMAIN-SUFFIX,redotpay.com
-
-# infini
-DOMAIN-SUFFIX,infini.money
