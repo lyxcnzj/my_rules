@@ -5,8 +5,8 @@ DOMAIN-SUFFIX,estudy.cn
 DOMAIN-SUFFIX,52pojie.cn
 
 # 肥羊all in one
-r.inews.qq.com
-myip.ipip.net
+DOMAIN-SUFFIX,r.inews.qq.com
+DOMAIN-SUFFIX,myip.ipip.net
 
 #PT站
 DOMAIN-SUFFIX,kp.m-team.cc
