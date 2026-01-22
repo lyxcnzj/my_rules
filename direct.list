@@ -1,30 +1,11 @@
-# 个人常用网站
+# 个人
 DOMAIN-SUFFIX,20061222.xyz
 DOMAIN-SUFFIX,6888880.xyz
 DOMAIN-SUFFIX,jia.lv
 DOMAIN-SUFFIX,estudy.cn
 DOMAIN-SUFFIX,52pojie.cn
 
-# Steam
-DOMAIN,csgo.wmsj.cn
-DOMAIN,dl.steam.clngaa.com
-DOMAIN,dl.steam.ksyna.com
-DOMAIN,dota2.wmsj.cn
-DOMAIN,st.dl.bscstorage.net
-DOMAIN,st.dl.eccdnx.com
-DOMAIN,st.dl.pinyuncloud.com
-DOMAIN,steampipe.steamcontent.tnkjmec.com
-DOMAIN,steampowered.com.8686c.com
-DOMAIN,steamstatic.com.8686c.com
-DOMAIN,wmsjsteam.com
-DOMAIN,xz.pphimalayanrt.com
-DOMAIN-SUFFIX,cm.steampowered.com
-DOMAIN-SUFFIX,steamchina.com
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamserver.net
-DOMAIN-SUFFIX,steamusercontent.com
-
-#PT站
+# PT
 DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,m-team.io
 DOMAIN-SUFFIX,hdsky.me
@@ -44,8 +25,5 @@ DOMAIN-SUFFIX,agsvpt.com
 DOMAIN-SUFFIX,ptsoulvoice.club
 DOMAIN-SUFFIX,ptvicomo.net
 DOMAIN-SUFFIX,open.cd
-
-# 万恶的甲骨文
-# DOMAIN-SUFFIX,oracle.com
 
 
