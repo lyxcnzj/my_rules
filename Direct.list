@@ -4,10 +4,8 @@ DOMAIN-SUFFIX,6888880.xyz
 DOMAIN-SUFFIX,jia.lv
 DOMAIN-SUFFIX,estudy.cn
 DOMAIN-SUFFIX,52pojie.cn
-
-# 肥羊all in one
-# DOMAIN-SUFFIX,r.inews.qq.com
-# DOMAIN-SUFFIX,myip.ipip.net
+# steam下载
+DOMAIN,steamcdn-a.akamaihd.net
 
 #PT站
 DOMAIN-SUFFIX,m-team.cc
