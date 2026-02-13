@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_keyword": [
+        "eduvpn",
+        "1e100"
+      ],
+      "domain_suffix": [
+        "keeflys.com",
+        "u2.dmhy.org",
+        "star-space.net",
+        "linux.do",
+        "nodeseek.com"
+      ]
+    }
+  ]
+}
