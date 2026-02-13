@@ -1,0 +1,46 @@
+payload:
+  # 个人
+  - DOMAIN,+.20061222.xyz
+  - DOMAIN,+.6888880.xyz
+  - DOMAIN,+.jia.lv
+  - DOMAIN,+.estudy.cn
+  - DOMAIN,+.52pojie.cn
+
+  # Steam
+  - DOMAIN,csgo.wmsj.cn
+  - DOMAIN,dl.steam.clngaa.com
+  - DOMAIN,dl.steam.ksyna.com
+  - DOMAIN,dota2.wmsj.cn
+  - DOMAIN,st.dl.bscstorage.net
+  - DOMAIN,st.dl.eccdnx.com
+  - DOMAIN,st.dl.pinyuncloud.com
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
+  - DOMAIN,steampowered.com.8686c.com
+  - DOMAIN,steamstatic.com.8686c.com
+  - DOMAIN,wmsjsteam.com
+  - DOMAIN,xz.pphimalayanrt.com
+  - DOMAIN,+.cm.steampowered.com
+  - DOMAIN,+.steamchina.com
+  - DOMAIN,+.steamcontent.com
+  - DOMAIN,+.steamserver.net
+  - DOMAIN,+.steamusercontent.com
+  
+  # PT
+  # - DOMAIN,+.m-team.cc
+  # - DOMAIN,+.m-team.io
+  # - DOMAIN,+.hdsky.me
+  # - DOMAIN,+.ptchdbits.co
+  # - DOMAIN,+.springsunday.net
+  # - DOMAIN,+.pterclub.net
+  # - DOMAIN,+.totheglory.im
+  # - DOMAIN,+.keepfrds.com
+  # - DOMAIN,+.ourbits.club
+  # - DOMAIN,+.hhanclub.top
+  # - DOMAIN,+.hdfans.org
+  # - DOMAIN,+.hddolby.com
+  # - DOMAIN,+.pttime.org
+  # - DOMAIN,+.dicmusic.com
+  # - DOMAIN,+.btschool.club
+  # - DOMAIN,+.agsvpt.com
+  # - DOMAIN,+.ptsoulvoice.club
+  # - DOMAIN,+.open.cd
