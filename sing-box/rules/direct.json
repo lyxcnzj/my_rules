@@ -2,8 +2,6 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
-      ],
       "domain_suffix": [
         "20061222.xyz",
         "6888880.xyz",
