@@ -1,8 +1,8 @@
-DOMAIN-KEYWORD,1e100
-DOMAIN-KEYWORD,eduvpn
-DOMAIN-SUFFIX,keeflys.com
-DOMAIN-SUFFIX,u2.dmhy.org
-DOMAIN-SUFFIX,star-space.net
-DOMAIN-SUFFIX,linux.do
-DOMAIN-SUFFIX,nodeseek.com
-
+payload:
+  - 1e100
+  - eduvpn
+  - +.keeflys.com
+  - +.u2.dmhy.org
+  - +.star-space.net
+  - +.linux.do
+  - +.nodeseek.com
