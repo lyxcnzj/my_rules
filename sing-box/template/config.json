@@ -18,6 +18,10 @@
   },
   "outbounds": [
     {"tag": "节点选择", "type": "selector", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Meta_1.png", "outbounds": ["香港节点", "美国节点", "手动选择", "自动选择"]},
+    {"tag": "香港节点", "type": "selector", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Hong_Kong.png", "outbounds": []},
+    {"tag": "美国节点", "type": "selector", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/USA.png", "outbounds": []},
+    {"tag": "节点选择", "type": "selector", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Hong_Kong.png", "outbounds": []},
+    {"tag": "自动选择", "type": "urltest", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Auto_Link.png", "outbounds": []},
     {"tag": "AI", "type": "selector", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/ChatGPT.png", "outbounds": ["节点选择", "香港节点", "美国节点", "手动选择", "自动选择"]},
     {"tag": "YouTube", "type": "selector", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/YouTube.png", "outbounds": ["节点选择", "香港节点", "美国节点", "手动选择", "自动选择"]},
     {"tag": "Google", "type": "selector", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Google.png", "outbounds": ["节点选择", "香港节点", "美国节点", "手动选择", "自动选择"]},
@@ -31,10 +35,6 @@
     {"tag": "OneDrive", "type": "selector", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/OneDrive.png", "outbounds": ["节点选择", "香港节点", "美国节点", "手动选择", "自动选择"]},
     {"tag": "Apple", "type": "selector", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Apple.png", "outbounds": ["节点选择", "香港节点", "美国节点", "手动选择", "自动选择"]},
     {"tag": "漏网之鱼", "type": "selector", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Scholar.png", "outbounds": ["节点选择", "直连"]},
-    {"tag": "香港节点", "type": "selector", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Hong_Kong.png", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["🇭🇰|HK|hk|香港|港|HongKong"]}]},
-    {"tag": "美国节点", "type": "selector", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/USA.png", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["🇺🇸|US|us|美国|美|United States"]}]},
-    {"tag": "手动选择", "type": "selector", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Tools.png", "outbounds": ["{all}"]},
-    {"tag": "自动选择", "type": "urltest", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Auto_Link.png", "outbounds": ["{all}"], "interval": "10m", "tolerance": 100},
     {"tag": "GLOBAL", "type": "selector", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Global.png", "outbounds": ["节点选择", "AI", "YouTube", "Google", "Github", "Telegram", "TikTok", "Netflix", "PayPal", "Steam", "Microsoft", "OneDrive", "Apple", "漏网之鱼", "香港节点", "美国节点", "手动选择", "自动选择", "直连"]},
     {"tag": "直连", "type": "direct", "icon": "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Direct.png"}
   ],
