@@ -4,7 +4,7 @@
         {"tag": "public", "type": "udp", "server": "223.5.5.5"},
         {"tag": "local-dns", "type": "udp", "server": "202.96.107.27"},
         {"tag": "cloudflare-dns", "type": "udp", "server": "1.1.1.1", "detour": "节点选择"},
-        {"tag": "google-dns", "type": "https", "server": "8.8.8.8", "detour": "节点选择"}
+        {"tag": "google-dns", "type": "udp", "server": "8.8.8.8", "detour": "节点选择"}
       ],
       "rules": [
         {"clash_mode": "direct", "server": "local-dns"},
