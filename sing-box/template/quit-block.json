@@ -13,7 +13,7 @@
         {"rule_set": ["direct-domain", "geosite-cn", "geosite-steamcn", "geosite-apple"], "server": "local-dns", "strategy": "prefer_ipv4"}
       ],
       "final": "google-dns",
-      "strategy": "prefer_ipv4",
+      "strategy": "ipv4_only",
       "client_subnet": "183.145.247.0/24",
       "independent_cache": true,
       "reverse_mapping": true
