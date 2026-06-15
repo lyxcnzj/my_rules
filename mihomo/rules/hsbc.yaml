@@ -1,0 +1,42 @@
+payload:
+  # HSBC Hong Kong App DIRECT
+  - +.hsbc.com
+  - +.hsbc.com.cn
+  - +.hsbc.com.hk
+  - +.hsbc.com.sg
+  - +.hsbcapi.com
+  - +.hsbcdynamic.com
+  - +.hsbcgroup.com
+  - +.hsbcnet.com
+  - +.hsbcnet.com.hk
+  - +.myhsbc.com
+  - +.mobile.hsbc
+  - +.mobile.hsbc.com.hk
+  - +.cms.hsbc.com
+
+  # CDN / SYSTEM
+  - +.akamaiedge.net
+  - +.akamaitechnologies.com
+  - +.akamaized.net
+  - +.edgesuite.net
+  - +.akadns.net
+  - +.azure-api.net
+  - +.azureedge.net
+  - +.azurefd.net
+
+  # Analytics
+  - +.112.2o7.net
+  - +.demdex.net
+  - +.adobedtm.com
+  - +.adobedtm.com
+  - +.omtrdc.net
+  - +.googletagmanager.com
+  - +.app-measurement.com
+
+  # Microsoft used by HSBC app services
+  - +.live.com
+  - +.msedge.net
+
+  # Bank-related external
+  - +.bankofchina.com
+  - +.ocbc.com
