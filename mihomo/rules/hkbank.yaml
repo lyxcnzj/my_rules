@@ -40,3 +40,8 @@ payload:
   # Bank-related external
   - +.bankofchina.com
   - +.ocbc.com
+
+  # ZA Bank
+  - +.za.group
+  - +.zajourney.com
+  - +.zafinsvc.com
