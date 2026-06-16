@@ -45,3 +45,25 @@ payload:
   - +.za.group
   - +.zajourney.com
   - +.zafinsvc.com
+
+  # EleBank
+  - +.airstarbank.com
+  - +.airstarbank.com.hk
+  - +.elebank.com
+  - +.elebank.com.hk
+
+  # Ant Bank
+  - +.antbank.hk
+  - +.antbank.com.hk
+  - +.alipayhk.com
+  - +.alipay.hk
+  - +.alipay.com.hk
+  - +.antgroup.com
+  - +.antfin.com
+
+  # WeLab Bank
+  - +.welab.bank
+  - +.welab.co
+  - +.welab.co.hk
+  - +.welend.hk
+  - +.welend.com.hk
