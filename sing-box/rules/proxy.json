@@ -4,7 +4,9 @@
     {
       "domain_keyword": [
         "eduvpn",
-        "1e100"
+        "1e100",
+        "epdg",
+        "att"
       ],
       "domain_suffix": [
         "googleapis.cn",
@@ -16,13 +18,15 @@
         "nodeseek.com",
         "invites.fun",
         "smoot.apple.com"
+        "att.net"
       ],
       "domain": [
         "apple-relay.apple.com",
         "apple-relay.cloudflare.com",
         "apple-relay.fastly-edge.com",
         "cp4.cloudflare.com",
-        "guzzoni.apple.com"
+        "guzzoni.apple.com",
+        "pdg.epc.mnc410.mcc310.pub.3gppnetwork.org"
       ]
     }
   ]
