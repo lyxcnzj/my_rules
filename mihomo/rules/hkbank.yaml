@@ -1,9 +1,8 @@
 payload:
-  # HSBC Hong Kong App DIRECT
+  # HSBC Hong Kong
   - +.hsbc.com
   - +.hsbc.com.cn
   - +.hsbc.com.hk
-  - +.hsbc.com.sg
   - +.hsbcapi.com
   - +.hsbcdynamic.com
   - +.hsbcgroup.com
@@ -11,48 +10,19 @@ payload:
   - +.hsbcnet.com.hk
   - +.myhsbc.com
   - +.mobile.hsbc
-  - +.mobile.hsbc.com.hk
-  - +.cms.hsbc.com
-
-  # CDN / SYSTEM
-  - +.akamaiedge.net
-  - +.akamaitechnologies.com
-  - +.akamaized.net
-  - +.edgesuite.net
-  - +.akadns.net
-  - +.azure-api.net
-  - +.azureedge.net
-  - +.azurefd.net
-
-  # Analytics
-  - +.112.2o7.net
-  - +.demdex.net
-  - +.adobedtm.com
-  - +.adobedtm.com
-  - +.omtrdc.net
-  - +.googletagmanager.com
-  - +.app-measurement.com
-
-  # Microsoft used by HSBC app services
-  - +.live.com
-  - +.msedge.net
-
-  # Bank-related external
-  - +.bankofchina.com
-  - +.ocbc.com
 
   # ZA Bank
   - +.za.group
   - +.zajourney.com
   - +.zafinsvc.com
 
-  # EleBank
+  # Airstar Bank / EleBank
   - +.airstarbank.com
   - +.airstarbank.com.hk
   - +.elebank.com
   - +.elebank.com.hk
 
-  # Ant Bank
+  # Ant Bank / AlipayHK
   - +.antbank.hk
   - +.antbank.com.hk
   - +.alipayhk.com
@@ -60,10 +30,3 @@ payload:
   - +.alipay.com.hk
   - +.antgroup.com
   - +.antfin.com
-
-  # WeLab Bank
-  - +.welab.bank
-  - +.welab.co
-  - +.welab.co.hk
-  - +.welend.hk
-  - +.welend.com.hk
