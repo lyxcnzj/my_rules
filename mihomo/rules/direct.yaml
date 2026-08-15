@@ -9,7 +9,9 @@ payload:
   - +.services.googleapis.cn
   - +.xn--ngstr-lra8j.com
   
-  
+  # 金融
+  - +.wise.com
+  - +.transferwise.com
   
   # PT
   # - +.m-team.cc
