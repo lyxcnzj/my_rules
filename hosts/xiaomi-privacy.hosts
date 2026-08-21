@@ -1,0 +1,103 @@
+# Xiaomi / HyperOS Privacy Hosts
+# Blocks known anti-fraud, package scanning, app-list backup,
+# telemetry, analytics and Xiaomi advertising endpoints.
+# Does not block Xiaomi Push, account, OTA or core Mi Cloud services.
+
+# ============================================================
+# Anti-fraud, package inspection and installed-app detection
+# ============================================================
+
+0.0.0.0 api.installer.xiaomi.com
+0.0.0.0 preview-api.installer.xiaomi.com
+0.0.0.0 flash.sec.miui.com
+0.0.0.0 flash.sec.intl.miui.com
+0.0.0.0 afraud-cse.avlyun.com
+
+# Installed-app list backup/sync
+# Blocking may disable Xiaomi Cloud restoration of installed apps.
+0.0.0.0 a0.app.xiaomi.com
+
+# ============================================================
+# AVL / Xiaomi cloud antivirus scanning
+# ============================================================
+
+0.0.0.0 miav-cse.avlyun.com
+0.0.0.0 miui-fxcse.avlyun.com
+0.0.0.0 ixav-cse.avlyun.com
+0.0.0.0 sdkconf.avlyun.com
+0.0.0.0 updatesdk.avlyun.com
+0.0.0.0 update.avlyun.sec.miui.com
+0.0.0.0 logupdate.avlyun.sec.miui.com
+0.0.0.0 log.avlyun.sec.intl.miui.com
+0.0.0.0 virus-engine.sec.miui.com
+0.0.0.0 mazu.sec.miui.com
+0.0.0.0 xlmc.sec.miui.com
+0.0.0.0 etl.xlmc.sec.miui.com
+0.0.0.0 etl-xlmc-ssl.sandai.net
+0.0.0.0 uploadlog.xlmc.sandai.net
+0.0.0.0 cn.app.chat.xiaomi.net
+
+# ============================================================
+# MIUI / HyperOS telemetry and analytics
+# ============================================================
+
+0.0.0.0 tracking.miui.com
+0.0.0.0 tracking.intl.miui.com
+0.0.0.0 tracking.india.miui.com
+0.0.0.0 tracking.rus.miui.com
+0.0.0.0 fcanr.tracking.miui.com
+
+0.0.0.0 data.mistat.xiaomi.com
+0.0.0.0 data.mistat.intl.xiaomi.com
+0.0.0.0 data.mistat.india.xiaomi.com
+0.0.0.0 data.mistat.rus.xiaomi.com
+0.0.0.0 o.data.mistat.xiaomi.com
+0.0.0.0 abtest.mistat.xiaomi.com
+0.0.0.0 abtest.mistat.intl.xiaomi.com
+0.0.0.0 storeconfig.mistat.intl.xiaomi.com
+
+0.0.0.0 a.stat.xiaomi.com
+0.0.0.0 stat.xiaomi.com
+0.0.0.0 stats.xiaomi.com
+0.0.0.0 sg.a.stat.mi.com
+0.0.0.0 api.collect.data.intl.miui.com
+0.0.0.0 api.d.xiaomi.com
+0.0.0.0 data.sec.miui.com
+0.0.0.0 data.sec.intl.miui.com
+
+# Crash, search, game and AI-assistant logging
+0.0.0.0 sentry.d.xiaomi.net
+0.0.0.0 mlog.search.xiaomi.net
+0.0.0.0 migcreport.g.mi.com
+0.0.0.0 tracker.ai.xiaomi.com
+0.0.0.0 fe02.lg.xiaomi.com
+0.0.0.0 fe05.lg.xiaomi.com
+
+# ============================================================
+# Xiaomi advertising
+# ============================================================
+
+0.0.0.0 ad.mi.com
+0.0.0.0 ad.xiaomi.com
+0.0.0.0 ad1.xiaomi.com
+0.0.0.0 ad.intl.xiaomi.com
+0.0.0.0 api.ad.xiaomi.com
+0.0.0.0 api.ad.intl.xiaomi.com
+0.0.0.0 api.admob.xiaomi.com
+0.0.0.0 new.api.ad.xiaomi.com
+0.0.0.0 globalapi.ad.xiaomi.com
+0.0.0.0 adv.sec.miui.com
+0.0.0.0 adv.sec.intl.miui.com
+0.0.0.0 cdn.ad.xiaomi.com
+0.0.0.0 diagnosis.ad.xiaomi.com
+0.0.0.0 log.ad.xiaomi.com
+0.0.0.0 m.track.ad.xiaomi.com
+0.0.0.0 t.track.ad.xiaomi.com
+0.0.0.0 track.ad.xiaomi.com
+0.0.0.0 sdkconfig.ad.xiaomi.com
+0.0.0.0 sdkconfig.ad.intl.xiaomi.com
+0.0.0.0 e.ad.xiaomi.com
+0.0.0.0 ssp.ad.xiaomi.com
+0.0.0.0 zeus.ad.xiaomi.com
+0.0.0.0 zeus.ad.intl.xiaomi.com
+0.0.0.0 test.ad.xiaomi.com
