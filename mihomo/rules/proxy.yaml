@@ -9,4 +9,7 @@ payload:
   - +.invites.fun
 
   # T-Mobile Wi-Fi Calling
-  - +.mnc260.mcc310.pub.3gppnetwork.org  
+  - +.mnc260.mcc310.pub.3gppnetwork.org
+
+  # ReSend
+  - +.resend.com
