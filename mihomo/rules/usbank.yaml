@@ -1,4 +1,7 @@
 payload:
+  # Capital One
+  - capitalone
+  
   # HSBC US
   - +.hsbc.com.us
   - us.hsbc.com
