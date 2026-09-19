@@ -12,6 +12,9 @@ payload:
   # 金融
   - +.wise.com
   - +.transferwise.com
+
+  # T-Mobile Wi-Fi Calling
+  - +.mnc260.mcc310.pub.3gppnetwork.org
   
   # PT
   # - +.m-team.cc
