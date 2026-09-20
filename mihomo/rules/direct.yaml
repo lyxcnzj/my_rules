@@ -18,6 +18,9 @@ payload:
   - +.epc.mnc240.mcc310.pub.3gppnetwork.org
   - +.epc.mnc260.mcc310.pub.3gppnetwork.org
   - +.epc.mnc310.mcc310.pub.3gppnetwork.org  
+
+  # RedPocket Wi-Fi Calling
+  - +.att.net
   
   # PT
   # - +.m-team.cc
