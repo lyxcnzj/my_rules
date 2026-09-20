@@ -14,7 +14,10 @@ payload:
   - +.transferwise.com
 
   # T-Mobile Wi-Fi Calling
-  - +.mnc260.mcc310.pub.3gppnetwork.org
+  - +.epc.mnc210.mcc310.pub.3gppnetwork.org
+  - +.epc.mnc240.mcc310.pub.3gppnetwork.org
+  - +.epc.mnc260.mcc310.pub.3gppnetwork.org
+  - +.epc.mnc310.mcc310.pub.3gppnetwork.org  
   
   # PT
   # - +.m-team.cc
