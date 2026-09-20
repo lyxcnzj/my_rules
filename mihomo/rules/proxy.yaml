@@ -8,8 +8,13 @@ payload:
   - +.nodeseek.com
   - +.invites.fun
 
-  # RedPocket Wi-Fi Calling
-  # - +.att.net
+  # T-Mobile Wi-Fi Calling
+  - +.epc.mnc210.mcc310.pub.3gppnetwork.org
+  - +.epc.mnc240.mcc310.pub.3gppnetwork.org
+  - +.epc.mnc260.mcc310.pub.3gppnetwork.org
+  - +.epc.mnc310.mcc310.pub.3gppnetwork.org  
 
+  # RedPocket Wi-Fi Calling
+  - +.att.net
   # ReSend
   - +.resend.com
