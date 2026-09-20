@@ -9,8 +9,7 @@ payload:
   - +.invites.fun
 
   # RedPocket Wi-Fi Calling
-  - +.epdg.epc.att.net
-  - +.epdg.epc.firstnet.com
+  - +.att.net
 
   # ReSend
   - +.resend.com
