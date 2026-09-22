@@ -11,6 +11,7 @@ payload:
   # US Wi-Fi Calling
   - +.mcc310.pub.3gppnetwork.org
   - +.epc.att.net
+  - +.epc.att-idns.net
   
   # ReSend
   - +.resend.com
