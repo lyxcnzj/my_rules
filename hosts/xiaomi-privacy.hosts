@@ -35,7 +35,7 @@
 0.0.0.0 etl.xlmc.sec.miui.com
 0.0.0.0 etl-xlmc-ssl.sandai.net
 0.0.0.0 uploadlog.xlmc.sandai.net
-0.0.0.0 cn.app.chat.xiaomi.net
+# 0.0.0.0 cn.app.chat.xiaomi.net
 
 # ============================================================
 # MIUI / HyperOS telemetry and analytics
