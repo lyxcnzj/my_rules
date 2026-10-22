@@ -6,6 +6,9 @@ payload:
   # Equifax
   - +.equifax.com
   - keyword:equifax
-
+  
+  # Revolut
+  - +.revolut.com
+  
   # Plaid
   - +.plaid.com
