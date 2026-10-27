@@ -6,6 +6,10 @@ payload:
   # Equifax
   - +.equifax.com
   - keyword:equifax
+
+  # SoFi
+  - +.sofi.com
+  - keyword:sofi
   
   # Revolut
   - +.revolut.com
