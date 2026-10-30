@@ -16,7 +16,7 @@ payload:
   - +.zajourney.com
   - +.zafinsvc.com
 
-  # Airstar Bank / EleBank
+  # EleBank
   - +.airstarbank.com
   - +.airstarbank.com.hk
   - +.elebank.com
@@ -30,3 +30,8 @@ payload:
   - +.alipay.com.hk
   - +.antgroup.com
   - +.antfin.com
+
+  # iFast GB Bank
+  - +.ifastgb.com
+
+  
