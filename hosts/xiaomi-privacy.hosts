@@ -17,7 +17,7 @@
 0.0.0.0 detection-aigc.engine.miui.com
 0.0.0.0 push-service.sec.miui.com
 0.0.0.0 api.miui.security.xiaomi.com
-0.0.0.0 car-srv.sec.miui.com
+# 0.0.0.0 car-srv.sec.miui.com
 0.0.0.0 framework.sec.miui.com
 0.0.0.0 game.sec.miui.com
 0.0.0.0 game.toolbox.miui.com
