@@ -11,8 +11,8 @@
 # 2026.11.05 Update
 
 # 0.0.0.0 api.sec.miui.com
-0.0.0.0 auth-engine.sec.miui.com
-0.0.0.0 auth.be.sec.miui.com
+# 0.0.0.0 auth-engine.sec.miui.com
+# 0.0.0.0 auth.be.sec.miui.com
 0.0.0.0 check.engine.miui.com
 0.0.0.0 detection-aigc.engine.miui.com
 0.0.0.0 push-service.sec.miui.com
