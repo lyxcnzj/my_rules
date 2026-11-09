@@ -17,3 +17,11 @@ payload:
   
   # ReSend
   - +.resend.com
+  
+  # Apple Intelligence
+  - guzzoni.apple.com
+  - +.smoot.apple.com
+  - +.apple-relay.apple.com
+  - +.apple-relay.cloudflare.com
+  - +.apple-relay.fastly-edge.com
+  - cp4.cloudflare.com
