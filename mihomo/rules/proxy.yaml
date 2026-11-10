@@ -19,11 +19,11 @@ payload:
   - +.resend.com
   
   # Apple Intelligence
-  - +.guzzoni.apple.com
+  - guzzoni.apple.com
   - +.smoot.apple.com
   - +.siri.apple.com
-  - +.api-siri-prod.apple.com
-  - +.seed-siri-apple-com.v.aaplimg.com
+  - api-siri-prod.apple.com
+  - seed.siri.apple.com
   - +.nlp.apple.com
   - +.prod.dss.apple.com
   - +.apple-relay.apple.com
@@ -32,6 +32,7 @@ payload:
   - +.apple-carry-relay.cloudflare.com
   - +.apple-relay.fastly-edge.com
   - +.apple-relay.akamaized.net
+  - +.apple-relay.mask.apple-dns.net
   - +.cp4.cloudflare.com
   - +.mask.icloud.com
   - +.mask-h2.icloud.com
@@ -43,7 +44,12 @@ payload:
   - +.mask-api.fe.apple-dns.net
   - +.mask-api.fe2.apple-dns.net
   - +.gateway.icloud.com
-  - +.probe.icloud.com
+  - probe.icloud.com
+  - metrics.icloud.com
+  - amp-api.apps.apple.com
+  - +.aapps.mzstatic.com
+  - +.apps.mzstatic.com
   - +.api.apple-cloudkit.com
   - gspe1-ssl.ls.apple.com
+  - +.ls.apple.com
   - +.wps.apple.com
