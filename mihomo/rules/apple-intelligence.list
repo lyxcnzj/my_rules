@@ -1,0 +1,43 @@
+# AI Proxy Rules — Apple Intelligence / Siri / Private Relay
+# Route these to a node in an Apple-Intelligence-supported region (e.g. US).
+# 请指向 Apple Intelligence 支持地区的节点（如美国）。
+
+# Siri / Apple Intelligence backend / Siri 与 Apple Intelligence 后端
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-KEYWORD,siri
+
+# Relay / Private Relay (mask) / 中继
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
+
+# Location, iCloud gateway, App Store assets / 定位、iCloud 网关、App Store 资源
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,apps.mzstatic.com
+
+# Apple's own domains, all subdomains — weather (WeatherKit), push (APNs), certificates,
+# asset catalogs, CloudKit. Keeps every request of one Apple ID on the same exit region.
+# 苹果自有域名（含全部子域）：天气（WeatherKit）、推送（APNs）、证书校验、资源目录、CloudKit。
+# 让同一个 Apple ID 的所有请求从同一个地区出口出去。
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,aaplimg.com
+
+# Apple's own IP block (AS714) — push and other connections made by IP, with no hostname
+# 苹果自有 IP 段（AS714）：推送等直接连 IP、没有域名的连接
+# IP-CIDR,17.0.0.0/8,no-resolve
