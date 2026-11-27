@@ -1,18 +1,81 @@
-payload:
-  # Capital One
-  - +.capitalone.com
-  - keyword:capitalone
-  
-  # Equifax
-  - +.equifax.com
-  - keyword:equifax
+# ==========================================
+# Banks & Financial Institutions
+# ==========================================
 
-  # SoFi
-  - +.sofi.com
-  - keyword:sofi
-  
-  # Revolut
-  - +.revolut.com
-  
-  # Plaid
-  - +.plaid.com
+# Capital One
+DOMAIN-SUFFIX,capitalone.com
+DOMAIN-KEYWORD,capitalone
+
+# Chase
+DOMAIN-SUFFIX,chase.com
+DOMAIN-SUFFIX,chasecdn.com
+DOMAIN-SUFFIX,chasepay.com
+DOMAIN-SUFFIX,jpmorganchase.com
+DOMAIN-SUFFIX,jpmorgan.com
+DOMAIN-KEYWORD,chase
+
+# American Express
+DOMAIN-SUFFIX,americanexpress.com
+DOMAIN-SUFFIX,amex.com
+DOMAIN-SUFFIX,amextravel.com
+DOMAIN-SUFFIX,aexp.com
+DOMAIN-SUFFIX,aexp-static.com
+DOMAIN-SUFFIX,membershiprewards.com
+DOMAIN-KEYWORD,amex
+DOMAIN-KEYWORD,americanexpress
+
+# SoFi
+DOMAIN-SUFFIX,sofi.com
+DOMAIN-KEYWORD,sofi
+
+# Revolut
+DOMAIN-SUFFIX,revolut.com
+DOMAIN-KEYWORD,revolut
+
+# Rize Credit Union
+DOMAIN-SUFFIX,rizecu.com
+DOMAIN-KEYWORD,rizecu
+
+# PNC
+DOMAIN-SUFFIX,pnc.com
+DOMAIN-KEYWORD,pnc
+
+# Nubank
+DOMAIN-SUFFIX,nu.com
+DOMAIN-KEYWORD,nubank
+
+
+# ==========================================
+# Financial Infrastructure
+# ==========================================
+
+# Plaid
+DOMAIN-SUFFIX,plaid.com
+
+
+# ==========================================
+# Credit Bureaus
+# ==========================================
+
+# Equifax
+DOMAIN-SUFFIX,equifax.com
+DOMAIN-SUFFIX,myequifax.com
+
+# TransUnion
+DOMAIN-SUFFIX,transunion.com
+
+# Experian
+DOMAIN-SUFFIX,experian.com
+
+
+# ==========================================
+# Credit Monitoring Services
+# ==========================================
+
+# Credit Karma
+DOMAIN-SUFFIX,creditkarma.com
+DOMAIN-SUFFIX,ckapis.com
+DOMAIN,creditkarmacdn-a.akamaihd.net
+
+# Credit Sesame
+DOMAIN-SUFFIX,creditsesame.com
