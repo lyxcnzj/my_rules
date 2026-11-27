@@ -43,6 +43,7 @@ DOMAIN-KEYWORD,pnc
 
 # Nubank
 DOMAIN-SUFFIX,nu.com
+DOMAIN-SUFFIX,nuapp.us
 DOMAIN-KEYWORD,nubank
 
 
@@ -80,3 +81,16 @@ DOMAIN,creditkarmacdn-a.akamaihd.net
 
 # Credit Sesame
 DOMAIN-SUFFIX,creditsesame.com
+
+# ==========================================
+# Others
+# ==========================================
+
+# TopCashback US
+DOMAIN-SUFFIX,topcashback.com
+DOMAIN-SUFFIX,tcb-cdn.com
+
+# Rakuten US
+DOMAIN-SUFFIX,rakuten.com
+DOMAIN-SUFFIX,ebates.com
+DOMAIN-SUFFIX,rakuten-static.com
