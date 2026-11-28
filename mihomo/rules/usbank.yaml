@@ -57,6 +57,8 @@ payload:
   - DOMAIN-SUFFIX,pncbank.com
   - DOMAIN-SUFFIX,pncmc.com
   - DOMAIN-SUFFIX,pnc
+  - DOMAIN-SUFFIX,glia.com
+  - DOMAIN,pncnationalbank.tt.omtrdc.net
 
   # ==========================================
   # Niche / Fintech Banks & Credit Unions
@@ -80,6 +82,9 @@ payload:
   - DOMAIN-SUFFIX,dbk.ncr.com
   - DOMAIN-SUFFIX,ncrvoyix.com
   - DOMAIN-SUFFIX,digitalinsight.com
+  - DOMAIN-SUFFIX,candescent.com
+  - DOMAIN-SUFFIX,dracobank.com
+  - DOMAIN-SUFFIX,savvymoney.com
   - DOMAIN-KEYWORD,rizecu
 
   # Nubank
@@ -100,6 +105,12 @@ payload:
   # Zelle
   - DOMAIN-SUFFIX,zelle.com
   - DOMAIN-SUFFIX,zellepay.com
+
+  # Banking Anti-Fraud & Risk SDKs
+  - DOMAIN-SUFFIX,trusteer.com
+  - DOMAIN-SUFFIX,iesnare.com
+  - DOMAIN-SUFFIX,kaptcha.com
+  - DOMAIN-SUFFIX,appdome.com
 
   # ==========================================
   # Credit Bureaus
