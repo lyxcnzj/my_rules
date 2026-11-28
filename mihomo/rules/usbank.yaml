@@ -54,7 +54,9 @@ payload:
 
   # PNC
   - DOMAIN-SUFFIX,pnc.com
+  - DOMAIN-SUFFIX,pncbank.com
   - DOMAIN-SUFFIX,pncmc.com
+  - DOMAIN-SUFFIX,pnc
 
   # ==========================================
   # Niche / Fintech Banks & Credit Unions
@@ -76,11 +78,13 @@ payload:
   - DOMAIN-SUFFIX,rizecu.com
   - DOMAIN-SUFFIX,pulsatehq.com
   - DOMAIN-SUFFIX,dbk.ncr.com
+  - DOMAIN-SUFFIX,ncrvoyix.com
   - DOMAIN-SUFFIX,digitalinsight.com
   - DOMAIN-KEYWORD,rizecu
 
   # Nubank
   - DOMAIN-SUFFIX,nu.com
+  - DOMAIN-SUFFIX,nu.us
   - DOMAIN-SUFFIX,nuapp.us
   - DOMAIN-SUFFIX,nubank.com.br
   - DOMAIN-SUFFIX,nu.com.mx
