@@ -1,96 +1,92 @@
-# ==========================================
-# Banks & Financial Institutions
-# ==========================================
+payload:
+  # ==========================================
+  # Banks & Financial Institutions
+  # ==========================================
 
-# Capital One
-DOMAIN-SUFFIX,capitalone.com
-DOMAIN-KEYWORD,capitalone
+  # Capital One
+  - DOMAIN-SUFFIX,capitalone.com
+  - DOMAIN-KEYWORD,capitalone
 
-# Chase
-DOMAIN-SUFFIX,chase.com
-DOMAIN-SUFFIX,chasecdn.com
-DOMAIN-SUFFIX,chasepay.com
-DOMAIN-SUFFIX,jpmorganchase.com
-DOMAIN-SUFFIX,jpmorgan.com
-DOMAIN-KEYWORD,chase
+  # Chase
+  - DOMAIN-SUFFIX,chase.com
+  - DOMAIN-SUFFIX,chasecdn.com
+  - DOMAIN-SUFFIX,chasepay.com
+  - DOMAIN-SUFFIX,jpmorganchase.com
+  - DOMAIN-SUFFIX,jpmorgan.com
 
-# American Express
-DOMAIN-SUFFIX,americanexpress.com
-DOMAIN-SUFFIX,amex.com
-DOMAIN-SUFFIX,amextravel.com
-DOMAIN-SUFFIX,aexp.com
-DOMAIN-SUFFIX,aexp-static.com
-DOMAIN-SUFFIX,membershiprewards.com
-DOMAIN-KEYWORD,amex
-DOMAIN-KEYWORD,americanexpress
+  # American Express
+  - DOMAIN-SUFFIX,americanexpress.com
+  - DOMAIN-SUFFIX,amex.com
+  - DOMAIN-SUFFIX,amextravel.com
+  - DOMAIN-SUFFIX,aexp.com
+  - DOMAIN-SUFFIX,aexp-static.com
+  - DOMAIN-SUFFIX,membershiprewards.com
+  - DOMAIN-KEYWORD,amex
+  - DOMAIN-KEYWORD,americanexpress
 
-# SoFi
-DOMAIN-SUFFIX,sofi.com
-DOMAIN-KEYWORD,sofi
+  # SoFi
+  - DOMAIN-SUFFIX,sofi.com
+  - DOMAIN-KEYWORD,sofi
 
-# Revolut
-DOMAIN-SUFFIX,revolut.com
-DOMAIN-KEYWORD,revolut
+  # Revolut
+  - DOMAIN-SUFFIX,revolut.com
+  - DOMAIN-KEYWORD,revolut
 
-# Rize Credit Union
-DOMAIN-SUFFIX,rizecu.com
-DOMAIN-SUFFIX,pulsatehq.com
-DOMAIN-KEYWORD,rizecu
+  # Rize Credit Union
+  - DOMAIN-SUFFIX,rizecu.com
+  - DOMAIN-SUFFIX,pulsatehq.com
+  - DOMAIN-KEYWORD,rizecu
 
-# PNC
-DOMAIN-SUFFIX,pnc.com
-DOMAIN-KEYWORD,pnc
+  # PNC
+  - DOMAIN-SUFFIX,pnc.com
 
-# Nubank
-DOMAIN-SUFFIX,nu.com
-DOMAIN-SUFFIX,nuapp.us
-DOMAIN-KEYWORD,nubank
+  # Nubank
+  - DOMAIN-SUFFIX,nu.com
+  - DOMAIN-SUFFIX,nuapp.us
+  - DOMAIN-KEYWORD,nubank
 
+  # ==========================================
+  # Financial Infrastructure
+  # ==========================================
 
-# ==========================================
-# Financial Infrastructure
-# ==========================================
+  # Plaid
+  - DOMAIN-SUFFIX,plaid.com
 
-# Plaid
-DOMAIN-SUFFIX,plaid.com
+  # ==========================================
+  # Credit Bureaus
+  # ==========================================
 
+  # Equifax
+  - DOMAIN-SUFFIX,equifax.com
+  - DOMAIN-SUFFIX,myequifax.com
 
-# ==========================================
-# Credit Bureaus
-# ==========================================
+  # TransUnion
+  - DOMAIN-SUFFIX,transunion.com
 
-# Equifax
-DOMAIN-SUFFIX,equifax.com
-DOMAIN-SUFFIX,myequifax.com
+  # Experian
+  - DOMAIN-SUFFIX,experian.com
 
-# TransUnion
-DOMAIN-SUFFIX,transunion.com
+  # ==========================================
+  # Credit Monitoring Services
+  # ==========================================
 
-# Experian
-DOMAIN-SUFFIX,experian.com
+  # Credit Karma
+  - DOMAIN-SUFFIX,creditkarma.com
+  - DOMAIN-SUFFIX,ckapis.com
+  - DOMAIN,creditkarmacdn-a.akamaihd.net
 
+  # Credit Sesame
+  - DOMAIN-SUFFIX,creditsesame.com
 
-# ==========================================
-# Credit Monitoring Services
-# ==========================================
+  # ==========================================
+  # Others
+  # ==========================================
 
-# Credit Karma
-DOMAIN-SUFFIX,creditkarma.com
-DOMAIN-SUFFIX,ckapis.com
-DOMAIN,creditkarmacdn-a.akamaihd.net
+  # TopCashback US
+  - DOMAIN-SUFFIX,topcashback.com
+  - DOMAIN-SUFFIX,tcb-cdn.com
 
-# Credit Sesame
-DOMAIN-SUFFIX,creditsesame.com
-
-# ==========================================
-# Others
-# ==========================================
-
-# TopCashback US
-DOMAIN-SUFFIX,topcashback.com
-DOMAIN-SUFFIX,tcb-cdn.com
-
-# Rakuten US
-DOMAIN-SUFFIX,rakuten.com
-DOMAIN-SUFFIX,ebates.com
-DOMAIN-SUFFIX,rakuten-static.com
+  # Rakuten US
+  - DOMAIN-SUFFIX,rakuten.com
+  - DOMAIN-SUFFIX,ebates.com
+  - DOMAIN-SUFFIX,rakuten-static.com
