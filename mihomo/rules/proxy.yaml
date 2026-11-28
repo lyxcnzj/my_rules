@@ -1,19 +1,19 @@
 payload:
-  - keyword:1e100
-  - keyword:eduvpn
-  - +.keeflys.com
-  - +.u2.dmhy.org
-  - +.star-space.net
-  - +.linux.do
-  - +.nodeseek.com
-  - +.naixi.net
-  - +.docofcard.com
-  - +.invites.fun
+  - DOMAIN-KEYWORD,1e100
+  - DOMAIN-KEYWORD,eduvpn
+  - DOMAIN-SUFFIX,keeflys.com
+  - DOMAIN-SUFFIX,u2.dmhy.org
+  - DOMAIN-SUFFIX,star-space.net
+  - DOMAIN-SUFFIX,linux.do
+  - DOMAIN-SUFFIX,nodeseek.com
+  - DOMAIN-SUFFIX,naixi.net
+  - DOMAIN-SUFFIX,docofcard.com
+  - DOMAIN-SUFFIX,invites.fun
 
   # US Wi-Fi Calling
-  - +.mcc310.pub.3gppnetwork.org
-  - +.epc.att.net
-  - +.epc.att-idns.net
-  
+  - DOMAIN-SUFFIX,mcc310.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,epc.att.net
+  - DOMAIN-SUFFIX,epc.att-idns.net
+
   # ReSend
-  - +.resend.com
+  - DOMAIN-SUFFIX,resend.com
