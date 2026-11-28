@@ -1,6 +1,6 @@
 payload:
   # ==========================================
-  # Banks & Financial Institutions
+  # Major US Banks & Credit Cards
   # ==========================================
 
   # Capital One
@@ -24,25 +24,66 @@ payload:
   - DOMAIN-KEYWORD,amex
   - DOMAIN-KEYWORD,americanexpress
 
+  # Bank of America
+  - DOMAIN-SUFFIX,bankofamerica.com
+  - DOMAIN-SUFFIX,bac-assets.com
+  - DOMAIN-SUFFIX,bofa.com
+  - DOMAIN-KEYWORD,bankofamerica
+
+  # Wells Fargo
+  - DOMAIN-SUFFIX,wellsfargo.com
+  - DOMAIN-SUFFIX,wf.com
+  - DOMAIN-SUFFIX,wellsfargomedia.com
+
+  # Citi
+  - DOMAIN-SUFFIX,citi.com
+  - DOMAIN-SUFFIX,citibank.com
+  - DOMAIN-SUFFIX,citicards.com
+  - DOMAIN-SUFFIX,citibankonline.com
+  - DOMAIN-SUFFIX,citigroup.com
+
+  # U.S. Bank
+  - DOMAIN-SUFFIX,usbank.com
+  - DOMAIN-SUFFIX,usbank.net
+  - DOMAIN-SUFFIX,myaccountaccess.com
+
+  # Discover
+  - DOMAIN-SUFFIX,discover.com
+  - DOMAIN-SUFFIX,discovercard.com
+  - DOMAIN-SUFFIX,discoverbank.com
+
+  # PNC
+  - DOMAIN-SUFFIX,pnc.com
+  - DOMAIN-SUFFIX,pncmc.com
+
+  # ==========================================
+  # Niche / Fintech Banks & Credit Unions
+  # ==========================================
+
   # SoFi
   - DOMAIN-SUFFIX,sofi.com
+  - DOMAIN-SUFFIX,sofi.org
+  - DOMAIN-SUFFIX,sofi.app.link
+  - DOMAIN-SUFFIX,sofitravel.com
   - DOMAIN-KEYWORD,sofi
 
   # Revolut
   - DOMAIN-SUFFIX,revolut.com
+  - DOMAIN-SUFFIX,revolut.me
   - DOMAIN-KEYWORD,revolut
 
-  # Rize Credit Union
+  # Rize Credit Union (uses NCR Digital Banking backend)
   - DOMAIN-SUFFIX,rizecu.com
   - DOMAIN-SUFFIX,pulsatehq.com
+  - DOMAIN-SUFFIX,dbk.ncr.com
+  - DOMAIN-SUFFIX,digitalinsight.com
   - DOMAIN-KEYWORD,rizecu
-
-  # PNC
-  - DOMAIN-SUFFIX,pnc.com
 
   # Nubank
   - DOMAIN-SUFFIX,nu.com
   - DOMAIN-SUFFIX,nuapp.us
+  - DOMAIN-SUFFIX,nubank.com.br
+  - DOMAIN-SUFFIX,nu.com.mx
   - DOMAIN-KEYWORD,nubank
 
   # ==========================================
@@ -51,6 +92,10 @@ payload:
 
   # Plaid
   - DOMAIN-SUFFIX,plaid.com
+
+  # Zelle
+  - DOMAIN-SUFFIX,zelle.com
+  - DOMAIN-SUFFIX,zellepay.com
 
   # ==========================================
   # Credit Bureaus
@@ -79,7 +124,7 @@ payload:
   - DOMAIN-SUFFIX,creditsesame.com
 
   # ==========================================
-  # Others
+  # Cashback & Others
   # ==========================================
 
   # TopCashback US
